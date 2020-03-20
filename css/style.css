@@ -1,0 +1,100 @@
+nav {
+    background-color: #ffffff !important;
+}
+
+nav ul a {
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    font-size: 1rem;
+    color: black;
+}
+
+.menuResponsivo{
+    font-size: 35px !important;
+    top: 20px !important;
+    position: relative !important;
+    left: -20px !important;
+}
+
+.sidenav{
+    background-color: #ffffff !important;
+}
+
+.sidenav li > a{
+    color: black !important;
+}
+
+nav .sidenav-trigger {
+    color: black;
+}
+
+.imgSidenav{
+    margin: 20px 0px 20px 0px;
+}
+
+.row {
+    margin-bottom: 0;
+}
+
+.row-text {
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+.menuSuper {
+    height: 100px !important;
+    line-height: 100px !important;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.tituloChamada {
+    font-size: 28px;
+}
+
+.megaTitulo {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.btn, .btn-large, .btn-small {
+    background-color: black !important;
+}
+
+.page-footer {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: black;
+    background-color: #1f1c1c;
+}
+
+.footer-copyright {
+    padding-bottom: 1px;
+    padding-top: 1px; 
+}
+
+.parallax-container {
+    height: 300px !important;
+}
+
+.portfolioNomeSite {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: blue !important;
+}
+
+.portfolioDescSite {
+    margin: 0 !important;
+    height: 20px;
+    text-align: center;
+    color: black !important;
+}

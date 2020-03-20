@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Somos uma agência de marketing digital e criação de sites, acesse e confira!">
+    <title>Technologies</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/logo-branco.png" type="image/png">
+</head>
+
+<body>
+    <!-- Topo e Menu -->
+    <div class="row">
+        <nav class="menuSuper">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="index.html" class="brand-logo">
+                        <img class="superLogotipo" src="images/logo.png" width="180">
+                    </a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                        <i class="material-icons menuResponsivo">menu</i>
+                    </a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li><a href="portfolio.html">Portfólio</a></li>
+                        <li><a href="contato.html">Fale Conosco</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <img class="responsive-img imgSidenave" src="images/logo.png" alt="B4 Technologies">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre Nós</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="contato.html">Fale Conosco</a></li>
+        </ul>
+    </div>
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="images/parallax1.jpg"></div>
+    </div>
+
+    <div class="row-text">
+        <div class="container">
+            <h1 class="megaTitulo">Sobre mim</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tristique urna mauris, id eleifend turpis
+                porta ut. Praesent euismod scelerisque sodales. Aenean sagittis ut lacus in egestas. Duis placerat metus
+                eu molestie facilisis. Duis facilisis lectus sit amet bibendum mattis. In scelerisque elit nibh, vitae
+                euismod erat sodales eget. Sed quis faucibus magna.
+                <br />
+                Mauris non convallis massa, eget pellentesque diam. Nullam in ultrices mi. Nullam id volutpat elit.
+                Maecenas ut libero sed nisl congue aliquam. Donec pulvinar neque nibh. In hac habitasse platea dictumst.
+                Duis et massa ac dolor eleifend facilisis. Class aptent taciti sociosqu ad litora torquent per conubia
+                nostra, per inceptos himenaeos. Vestibulum pellentesque, odio a condimentum tincidunt, mi neque ornare
+                elit, nec egestas augue justo finibus lacus.
+                <br />
+                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis
+                vulputate justo quis rutrum faucibus. Duis tempor, dolor quis posuere auctor, lacus erat placerat ex, eu
+                ultrices dui nisi non elit. Phasellus a nisi vel tellus luctus euismod in quis orci. Nulla metus justo,
+                lobortis aliquet pretium ac, rhoncus nec felis. Maecenas at venenatis nisi. Nullam tempor in lectus id
+                viverra. Fusce elementum turpis sit amet tempor interdum. Nulla tristique dolor porttitor hendrerit
+                gravida.</p>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Equipe</h5>
+                    <div class="white-text">
+                        <br />
+                        Juan Quispe - juan@b4.eti.br
+                        <br />
+                        Luan Teixeira - luan@b4.eti.br
+                        <br />
+                        Mario Puebla - mario@b4.eti.br
+                        <br />
+                        Steicy Dias - steicy@b4.eti.br
+                        <br />
+                        &nbsp
+                    </div>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="white-text text-lighten-3" href="index.html">Home</a></li>
+                        <li><a class="white-text text-lighten-3" href="sobre.html">Sobre Nós</a></li>
+                        <li><a class="white-text text-lighten-3" href="portfolio.html">Portfólio</a></li>
+                        <li><a class="white-text text-lighten-3" href="contato.html">Fale Conosco</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <center>
+                    © 2019 Copyright - B4 Technologies | Todos os direitos reservados
+                </center>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.parallax').parallax();
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        });
+    </script>
+</body>
+
+</html>
